@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-weight: 900;
+    color: black;
+    background-image: linear-gradient(180deg, orange, tomato);
+    text-align: center;
+}
