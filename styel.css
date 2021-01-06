@@ -2,9 +2,99 @@
     margin: 0;
     padding: 0;
 }
-h1{
-    font-weight: 900;
-    color: black;
-    background-image: linear-gradient(180deg, orange, tomato);
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+    margin:0  5%;
+    display: block;
+}
+h1 h2 h3 h4{
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+.half-width h1{
+    font-size: 80px;
+    margin-top: 250px;
+}
+h2{
+    font-size: 50px;
+    margin-top: 250px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+    font-size: 24px;
+    padding: 15px 0;
+}
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+.color-hightlight{
+    color: #FF8367;
+}
+.half-width{
+    width: 45%;
+    float: left;
+    margin-left: %;
+    padding-left : 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: wheat;
+    font-weight: 700;
+}
+.project{
+    margin: 80px 0px;
+}
+.project h2{
     text-align: center;
+    margin: 100px;
+    padding: 10px;
+}
+.box{
+    height: 80%;
+    width: 30%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 34px;
+    padding: 3px;
+}
+.box h3{
+    color: #363958;
+    padding: 15px 10px;
+}
+.box p{
+    font-size: 15px;
+    padding: 0 10px;
+}
+.contener{
+    background-image: url(images/Group_33094_1.png);
+    height: 225px;
+    width: 906px;
+    background-size: cover;
+    
+    margin: auto;
+}
+.contener .half-width{
+   
+    text-align: center;
+    font-size: 30px;
+    
+}
+.banner{
+    margin-top: 104px;
+}
+.ftr{
+    text-align: center;
+}
+.ftr h3{
+    font-size: 50px;
 }
